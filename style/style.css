@@ -47,9 +47,40 @@ body {
     font-size: 15px;
     width: 400px;
     /* color: hsl(0, 6%, 24%) */
+    color: hsl(0, 36%, 70%);
 }
 
 .container__right .container__right__img {
     width: 400px;
     height: 400px;
 }
+.left__email .input input{
+   width: 220px;
+   border-radius: 20px;
+   padding: 10px;
+   border:none;
+   outline: none;
+   background-color: transparent;
+}
+.left__email .input {
+ margin-top: 20px;
+ /* background: red; */
+ width: 250px;
+ height: 40px;
+ display: flex;
+ border-radius: 20px;
+ border: 1px solid hsl(0, 80%, 86% );
+ background: transparent;
+}
+.left__email .input img {
+    z-index: 100;
+    background: hsl(0, 80%, 86%);
+    padding: 10px;
+    /* background: red; */
+    /* padding: 0px 5px; */
+    border-radius: 30px;
+    width: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
